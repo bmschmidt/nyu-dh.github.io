@@ -1,0 +1,133 @@
+{"advanced-certificate-in-digital-humanities": {
+    "id":"advanced-certificate-in-digital-humanities",
+    "category": "page",
+    "title":"Advanced Certificate in Digital Humanities",
+    "content":"NYU offers points of entry to DH by way of training at various levels in a range of tools and methods. From one-off workshops to registered courses to graduate certificate programs, NYU is here to help researchers find the assistance they need.Selected Workshop Listings  NYU Library Workshops including Data Services, Digital Scholarship, and High Performance Computing.Selected Degree &amp; Certificate Programs  DH Advanced Certificate program offered through Arts &amp; sciences  Experimental Humanities &amp; Social Sciences DH Initiatives (XE) Master’s Degree in Interdisciplinary Study  Interactive Telecommunications Program (ITP) Master of Professional Studies and Bachelor of Fine Arts programs  Integrated Design and Media (IDM) Bachelor of Science degree  Media, Culture, and Communication (MCC) Bachelor of Science, Masters of Arts, Doctor of Philosophy degrees",
+    "url": "https://nyu-dh.github.io/certificate/"
+  },"consultations-and-resources": {
+    "id":"consultations-and-resources",
+    "category": "page",
+    "title":"Consultations and Resources",
+    "content":"Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Mauris eget sem mauris. Nam vel pretium nunc. Pellentesque fringilla, orci et venenatis dictum, diam magna rhoncus justo, ac tristique metus erat id dolor. Phasellus placerat rutrum molestie. Short paragraph about how resource come from lots of places (IT, DoL, Studio, Humanities Center, etc.)Consultations  Digital Scholarship Services  Data Services  SCIPWeb Publishing and Scholarly Communication Resources  WP @ NYU  Web Hosting  DOI Service  SCIPCloud Compute Resources  HPC  Reclaim cloud ???Hardware  LaGuardia?",
+    "url": "https://nyu-dh.github.io/consultations-and-resources/"
+  },"event-archive": {
+    "id":"event-archive",
+    "category": "page",
+    "title":"Event Archive",
+    "content":"                                      11/18/2020                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Public Humanities Workshop Series 1: Establishing Your Online Presence                                                    02/17/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Public Humanities Workshop Series 2: Engaging Communities Online                                                    04/14/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Public Humanities Workshop Series 3: Bridging Communities with Digital Scholarship                                ",
+    "url": "https://nyu-dh.github.io/event-archive/"
+  },"get-involved": {
+    "id":"get-involved",
+    "category": "page",
+    "title":"Get Involved",
+    "content":"mailing list?dh contact?EventsBlurb about events and where they come from. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum.                                      02/17/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Public Humanities Workshop Series 2: Engaging Communities Online                                                    04/14/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Public Humanities Workshop Series 3: Bridging Communities with Digital Scholarship                                        View all  Updates                                  02/18/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Apply for a 2021 NYU Digital Humanities Graduate Student Summer Fellowship.                                                    02/18/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              Apply for a 2021 NYU Digital Humanities Seed Grant.                                                    02/18/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              \"Raising the Volume!\" amplifies the Soul of Reason radio collection through community events and data science.                                                    02/18/2021                &nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;                              2020 NYU Digital Humanities Seed Grants have been awarded!                                        View all  ",
+    "url": "https://nyu-dh.github.io/get-involved/"
+  },"fellowships": {
+    "id":"fellowships",
+    "category": "page",
+    "title":"Fellowships",
+    "content":"The Research Technology Faculty Advisory Board (FAB), in partnership with the Center for the Humanities and NYU Libraries, invites applications for a series of Digital Humanities Graduate Student Summer Fellowships. Students will need to articulate their own project, which might involve engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit.2021 DH Graduate Student Summer Fellowship ProgramThe NYU Center for the Humanities is currently accepting proposals for the 2021 Digital Humanities Graduate Student Summer Fellowship Program.Apply at NYU Center for the Humanities website by March 7, 2021.",
+    "url": "https://nyu-dh.github.io/funding/graduate-student-fellowships/"
+  },"": {
+    "id":"",
+    "category": "page",
+    "title":"",
+    "content":"{  {%- for page in site.pages -%}  {{- page.title | strip_html | slugify | jsonify -}}: {    “id”: {{- page.title | strip_html | slugify | jsonify -}},    “category”: “page”,    “title”: {{- page.title | strip_html | jsonify -}},    “content”: {{- page.content | markdownify | strip_html | strip_newlines | jsonify -}},    “url”: “{{- page.url | absolute_url -}}”  },  {%- endfor -%}  {%- for page in site.projects -%}  {{- page.title | strip_html | slugify | jsonify -}}: {    “id”: {{- page.title | strip_html | slugify | jsonify -}},    “category”: “project”,    “title”: {{- page.title | strip_html | jsonify -}},    “content”: {{- page.content | markdownify | strip_html | strip_newlines | jsonify -}},    “url”: “{{- page.url | absolute_url -}}”  }{% unless forloop.last %}, {% endunless %}  {%- endfor -%}}",
+    "url": "https://nyu-dh.github.io/index.json"
+  },"funding": {
+    "id":"funding",
+    "category": "page",
+    "title":"Funding",
+    "content":"Seed GrantsNYU Research Technology has identified digital humanities as one of the University’s future areas of excellence. Provided in partnership with the NYU Center for the Humanities and NYU Libraries, this is the second year of a multi-year granting program to identify and fund projects that can benefit the university community by creatively bridging humanistic scholarship with new forms of computation, digital publishing, and digitization.Digital humanities scholarship takes a variety of forms, from algorithmic analysis to public scholarship; there are no restrictions in form or subject area that can be funded under this program. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar Research Technology resources. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.2021 – 2022 DH Seed Grant ProgramThe NYU Center for the Humanities is currently accepting proposals for the 2021 – 2022 Digital Humanities Seed Grant Program.Apply at NYU Center for the Humanities website by March 7, 2021.FellowshipsThe Research Technology Faculty Advisory Board (FAB), in partnership with the Center for the Humanities and NYU Libraries, invites applications for a series of Digital Humanities Graduate Student Summer Fellowships. Students will need to articulate their own project, which might involve engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit.2021 DH Graduate Student Summer Fellowship ProgramThe NYU Center for the Humanities is currently accepting proposals for the 2021 Digital Humanities Graduate Student Summer Fellowship Program.Apply at NYU Center for the Humanities website by March 7, 2021.",
+    "url": "https://nyu-dh.github.io/funding/"
+  },"home": {
+    "id":"home",
+    "category": "page",
+    "title":"Home",
+    "content":"Latest dispatches:{% include update_list.html limit=5 %}{% include tiles.html %}",
+    "url": "https://nyu-dh.github.io/"
+  },"": {
+    "id":"",
+    "category": "page",
+    "title":"",
+    "content":"@import ‘libs/vars’;@import ‘libs/functions’;@import ‘libs/mixins’;@import ‘libs/skel’;@import ‘font-awesome.min.css’;// @import url(‘https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900’);@import url(‘https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&amp;display=swap’);/*\tPhantom by HTML5 UP\thtml5up.net | @ajlkn\tFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)*/@include skel-breakpoints((\txlarge: '(max-width: 1680px)',\tlarge: '(max-width: 1280px)',\tmedium: '(max-width: 980px)',\tsmall: '(max-width: 736px)',\txsmall: '(max-width: 480px)',\txxsmall: '(max-width: 360px)'));@include skel-layout((\treset: 'full',\tboxModel: 'border',\tgrid: (\t\tgutters: 2em\t),\tbreakpoints: (\t\tmedium: (\t\t\tgrid: (\t\t\t\tgutters: 1.5em\t\t\t)\t\t),\t\tsmall: (\t\t\tgrid: (\t\t\t\tgutters: 1em\t\t\t)\t\t)\t)));// overrides@import 'nyu-dh';// Base.@import 'base/page';@import 'base/typography';// Component.@import 'components/section';@import 'components/icon';@import 'components/list';@import 'components/form';@import 'components/box';@import 'components/image';@import 'components/table';@import 'components/button';@import 'components/tiles';// Layout.@import 'layout/header';@import 'layout/menu';@import 'layout/main';@import 'layout/footer';@import 'layout/wrapper';// Override.\t@import ‘nyu-dh’;",
+    "url": "https://nyu-dh.github.io/assets/css/main.css"
+  },"people": {
+    "id":"people",
+    "category": "page",
+    "title":"People",
+    "content":"DH at NYU is lots of people and lots of groups collaborating. Between its hand in humanities computing since the 70s, its long tradition of interdisciplinary exploration, and its global mission, NYU runs the gamut of Digital Humanities modes and models. The key to DH at NYU is, and has long been, the diverse array of people exploring data, networking scholarship, and creatively coding.Contents  Executive Committee  Project PIsExecutive Committee{% assign committee = site.data.committee | sort: ‘sort’ | reverse %}{% for person in committee %}    {% if person.link %}{% endif %}    {{ person.name }}  {% if person.link %}{% endif %}  {% for role in person.roles %}    {{ role.title }}, {{ role.unit }}{% unless forloop.last %} &amp; {% endunless %}  {% endfor %}  {% endfor %}Project PIs2020 Cohort{% assign projects2020 = site.projects | where: ‘year’, ‘2020’ %}{% for project in projects2020 %}  {% for person in project.pis %}            {{ person.name }}        {{ person.title }}    {% endfor %}{% endfor %}",
+    "url": "https://nyu-dh.github.io/people/"
+  },"projects": {
+    "id":"projects",
+    "category": "page",
+    "title":"Projects",
+    "content":"This is a blurb about what projects are represented here and why amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo.{% for project in site.projects %}      {{ project.title }}    {%- for pi in project.pis -%}{{ pi.name }}, {{ pi.title }}{% unless forloop.last %} &amp; {% endunless %}{%- endfor -%}  {% endfor %}",
+    "url": "https://nyu-dh.github.io/projects/"
+  },"": {
+    "id":"",
+    "category": "page",
+    "title":"",
+    "content":"// Methods and jQuery UI for Wax search boxfunction excerptedString(str) {  str = str || ‘’; // handle null &gt; string  if (str.length &lt; 240) {    return str;  }  else {    return ${str.substring(0, 240)} ...;  }}function displayResult(item, fields) {  var id        = item.id;  var title     = item.title || ‘Untitled’;  var link      = item.url;  var category  = ${item.category}:  || ‘’  var content   = excerptedString(item.content);return &lt;div class=\"result\"&gt;&lt;a href=\"${link}\"&gt;&lt;span class=\"title\"&gt;${category}${title}&lt;/span&gt;&lt;br&gt;${content}&lt;/p&gt;&lt;/a&gt;&lt;/div&gt;;}function startSearchUI(fields, indexFile) {  $.getJSON(indexFile, function(store) {    var index  = new elasticlunr.Index;    index.saveDocument(false);    index.setRef(‘id’);for (i in fields) { index.addField(fields[i]); }for (i in store)  { index.addDoc(store[i]); }$('input#search').on('keyup', function() {  var results_div = $('#results');  var query       = $(this).val();  var results     = index.search(query, {  expand: true });  results_div.empty();  results_div.append(`&lt;p class=\"results-info\"&gt;Displaying ${results.length} results&lt;/p&gt;`);  for (var r in results) {    var ref    = results[r].ref;    var item   = store[ref];    var result = displayResult(item, fields);    results_div.append(result);  }});   }); }",
+    "url": "https://nyu-dh.github.io/assets/js/search-ui.js"
+  },"search": {
+    "id":"search",
+    "category": "page",
+    "title":"Search",
+    "content":"{% include searchbox.html %}",
+    "url": "https://nyu-dh.github.io/search/"
+  },"seed-grants": {
+    "id":"seed-grants",
+    "category": "page",
+    "title":"Seed Grants",
+    "content":"NYU Research Technology has identified digital humanities as one of the University’s future areas of excellence. Provided in partnership with the NYU Center for the Humanities and NYU Libraries, this is the second year of a multi-year granting program to identify and fund projects that can benefit the university community by creatively bridging humanistic scholarship with new forms of computation, digital publishing, and digitization.Digital humanities scholarship takes a variety of forms, from algorithmic analysis to public scholarship; there are no restrictions in form or subject area that can be funded under this program. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar Research Technology resources. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.2021 – 2022 DH Seed Grant ProgramThe NYU Center for the Humanities is currently accepting proposals for the 2021 – 2022 Digital Humanities Seed Grant Program.Apply at NYU Center for the Humanities website by March 7, 2021.2020 – 2021 DH Seed Grant ProgramThe following projects are recipients of the inaugural round of Digital Humanities Seed Grant funding. These grants support the development of new research projects that analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The Digital Humanities Seed Grant program, made possible by the Research Technology Faculty Advisory Board, builds upon NYU’s institutional capacity in Digital Humanities work.{% assign seeds = site.projects | where: ‘category’, ‘DH Seed Grant Recipient’ %}{% assign seeds2020 = seeds | where: 'year', 2020 %}{% for project in seeds2020 %}      {{ project.title }}    {%- for pi in project.pis -%}{{ pi.name }}, {{ pi.title }}{% unless forloop.last %} &amp; {% endunless %}{%- endfor -%}  {% endfor %}",
+    "url": "https://nyu-dh.github.io/funding/seed-grants/"
+  },"update-archive": {
+    "id":"update-archive",
+    "category": "page",
+    "title":"Update Archive",
+    "content":"{% include update_list.html %}",
+    "url": "https://nyu-dh.github.io/update-archive/"
+  },"abu-dhabi-calling-exploring-a-growing-capital-city-through-phone-directories-1970-2000": {
+    "id":"abu-dhabi-calling-exploring-a-growing-capital-city-through-phone-directories-1970-2000",
+    "category": "project",
+    "title":"Abu Dhabi Calling! Exploring a Growing Capital City through Phone Directories (1970-2000)",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/abu_dhabi_calling_exploring_a_growing_capital_city_through_phone_directories_1970-2000/"
+  }, "brown-brothers-collection": {
+    "id":"brown-brothers-collection",
+    "category": "project",
+    "title":"Brown Brothers Collection",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/brown_brothers_collection/"
+  }, "developing-a-publications-page-for-nyu-s-prison-education-program-pep-website": {
+    "id":"developing-a-publications-page-for-nyu-s-prison-education-program-pep-website",
+    "category": "project",
+    "title":"Developing a 'Publications Page' for NYU’s Prison Education Program (PEP) Website",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/developing_a_publications_page_for_nyus_prison_education_program_pep_website/"
+  }, "holding-hiring-algorithms-accountable-and-creating-new-tools-for-humanistic-research": {
+    "id":"holding-hiring-algorithms-accountable-and-creating-new-tools-for-humanistic-research",
+    "category": "project",
+    "title":"Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic Research",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/holding_hiring_algorithms_accountable_and_creating_new_tools_for_humanistic_research/"
+  }, "insuring-slavery-underwriting-risk-in-the-18th-century": {
+    "id":"insuring-slavery-underwriting-risk-in-the-18th-century",
+    "category": "project",
+    "title":"Insuring Slavery: Underwriting Risk in the 18th Century",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/insuring_slavery:_underwriting_risk_in_the_18th_century/"
+  }, "raising-the-volume-amplifying-soul-of-reason": {
+    "id":"raising-the-volume-amplifying-soul-of-reason",
+    "category": "project",
+    "title":"Raising the Volume: Amplifying Soul of Reason",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/raising_the_volume:_amplifying_soul_of_reason/"
+  }, "the-south-african-jewish-cookbook-project": {
+    "id":"the-south-african-jewish-cookbook-project",
+    "category": "project",
+    "title":"The South African Jewish Cookbook Project",
+    "content":"",
+    "url": "https://nyu-dh.github.io/projects/the_south_african_jewish_cookbook_project/"
+  }}
