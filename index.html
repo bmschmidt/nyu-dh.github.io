@@ -1,194 +1,220 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <!-- <link rel="shortcut icon" type="image/png"  href="/favicon.png" /> -->
 
-<head>
-    <title>DH@NYU | Home</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Here you'll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie.">
-    <link rel="stylesheet" href="/assets/css/main.css ">
-    <link rel="canonical" href="https://nyu-dh.github.io/">
-</head>
-
-
-<body>
-
-    <!-- Wrapper -->
-<div id="wrapper">
-	<div class="sticky">
-	<div class="topnav-wrap box-shadow">
-		<div class="inner">
-			<div class="topnav justify">
-				<a href="https://nyu-dh.github.io/" class="logo">
-					<span class="title">DH@NYU</span>
-				</a>
-				<a class="topnav-right" href="https://nyu-dh.github.io/search">Search</a>
-			</div>
-		</div>
-	</div>
-	<div class="topnav-wrap gradient">
-		<div class="inner">
-			<div class="topnav">
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/about-us/">About Us</a>
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/projects/">Projects</a>
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/funding/">Funding</a>
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/certificate/">Certificate Program</a>
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/consultations-and-resources/">Consultations & Resources</a>
-				
-				<a class="topnav-right" href="https://nyu-dh.github.io/get-involved/">Get Involved</a>
-				
-			</div>
-		</div>
-	</div>
-</div>
-
-	<header id="header">
-		<div class="inner">
-<h1>Welcome to Digital Humanities at <br>New York University.</h1>
-<p>Here you'll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie.</p>
-</div>
-	</header>
-
-	<!-- Main -->
-	<div id="main">
-		<div class="inner">
-
-
-    <h2 id="latest-dispatches">Latest dispatches:</h2>
-<div class="updates table-list-block">
-  <table>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
-      <tr>
-        <td>
-          <b>02/18/2021</b>
-        </td>
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Welcome to Digital Humanities at New York University. | nyu/dh</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Welcome to Digital Humanities at New York University." />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Here you’ll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie." />
+<meta property="og:description" content="Here you’ll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie." />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="nyu/dh" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Welcome to Digital Humanities at New York University." />
+<script type="application/ld+json">
+{"description":"Here you’ll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie.","@type":"WebSite","url":"/","headline":"Welcome to Digital Humanities at New York University.","name":"nyu/dh","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
 
-        <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
-        <td>
-          <a href="https://nyu-dh.github.io/fellowships">
-            Apply for a 2021 NYU Digital Humanities Graduate Student Summer Fellowship.
-          </a>
+  <body>
+    <nav class="navbar is-spaced is-info  is-fixed-top" x-data="{ openNav: false }">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="/" class="navbar-item is-size-4">
+        nyu<span class="is-secondary">/</span>dh
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
 
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <b>02/18/2021</b>
-        </td>
-
-        <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
-        <td>
-          <a href="https://nyu-dh.github.io/seed-grants">
-            Apply for a 2021 NYU Digital Humanities Seed Grant.
-          </a>
-
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <b>02/18/2021</b>
-        </td>
-
-        <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
-        <td>
-          <a href="https://nyu-dh.github.io/projects/raising-the-volume-amplifying-the-soul-of-reason">
-            "Raising the Volume!" amplifies the Soul of Reason radio collection through community events and data science.
-          </a>
-
-        </td>
-      </tr>
-    
-      <tr>
-        <td>
-          <b>02/18/2021</b>
-        </td>
-
-        <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
-        <td>
-          <a href="https://nyu-dh.github.io/seed-grants">
-            2020 NYU Digital Humanities Seed Grants have been awarded!
-          </a>
-
-        </td>
-      </tr>
-    
-  </table>
-  
-    <br />
-    <p><a href="https://nyu-dh.github.io/update-archive">View all</a></p>
-  
-</div>
-
-
+      <div class="navbar-end">
+        
+        
+        
+        <a href="/people" class="navbar-item is-size-6 ">People</a>
+        
+        
+        
+        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
+          <a href="" class="navbar-link ">Funding</a>
+          <div class="navbar-dropdown">
+            
+            <a href="/funding/seed-grants" class="navbar-item ">Faculty Seed Grant Program</a>
+            
+            <a href="/funding/grad-student-fellowships" class="navbar-item ">Graduate Fellowship Program</a>
+            
+          </div>
+        </div>
+        
+        
+        
+        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
+          <a href="" class="navbar-link ">Projects</a>
+          <div class="navbar-dropdown">
+            
+            <a href="/projects/seed-grants" class="navbar-item ">DH Seed Grant Projects</a>
+            
+            <a href="/projects/grad-fellows" class="navbar-item ">DH Graduate Fellowship Projects</a>
+            
+            <a href="/projects/all" class="navbar-item ">All Projects</a>
+            
+          </div>
+        </div>
+        
+        
+        
+        <a href="/certificate" class="navbar-item is-size-6 ">Certificate Program</a>
+        
+        
+        
+        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
+          <a href="" class="navbar-link ">Resources</a>
+          <div class="navbar-dropdown">
+            
+            <a href="/resources/consultations" class="navbar-item ">Staff Consultations</a>
+            
+            <a href="" class="navbar-item ">High Performance Computing</a>
+            
+            <a href="" class="navbar-item ">Web Hosting</a>
+            
+            <a href="/resources/communication-and-events" class="navbar-item ">Communication + Events</a>
+            
+          </div>
+        </div>
+        
+        
+        
+      </div>
 
     </div>
-</div>
-<!-- Footer -->
-<footer id="footer">
-	<div class="inner">
-		<section>
-			<h2>Get in touch</h2>
-			<form method="post" action="https://formspree.io/dh.help@nyu.edu">
-				<div class="field half first">
-					<input type="text" name="name" id="name" placeholder="Name" />
-				</div>
-				<div class="field half">
-					<input type="email" name="_replyto" id="email" placeholder="Email" />
-				</div>
-				<div class="field">
-					<textarea name="message" id="message" placeholder="Message"></textarea>
-				</div>
-				<ul class="actions">
-					<li>
-						<input type="submit" value="Send" class="special" />
-					</li>
-				</ul>
-			</form>
-		</section>
-		<section>
-			<h2>Follow</h2>
-			<ul class="icons">
-				
-				<li><a href="https://twitter.com/nyu_dh" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-				
-				
-				
-				
-				
-				<li><a href="https://github.com/nyu-dh" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-				
-				
-				
-				
-				<li><a href="mailto:dh.help@nyu.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-				
-			</ul>
-		</section>
-		<ul class="copyright">
-			<li>&copy; New York University. All rights reserved.</li>
-		</ul>
-	</div>
-</footer>
+  </div>
+</nav>
 
+    
+      <section class="hero is-primary border-gradient">
+  <div class="hero-body">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <div class="container">
+        <ul>
+          
+          
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <p class="title">Welcome to Digital Humanities at New York University.</p>
+      
+    </div>
+  </div>
+</section>
+
+    
+    <section class="section">
+      <div class="container">
+        <div class="content">
+The shared community at DH at NYU is created by a number of different organizations working in tandem.
 </div>
 
-<!-- Scripts -->
-<script src="https://nyu-dh.github.io/assets/js/jquery.min.js"></script>
-<script src="https://nyu-dh.github.io/assets/js/skel.min.js"></script>
-<script src="https://nyu-dh.github.io/assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="https://nyu-dh.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="https://nyu-dh.github.io/assets/js/main.js"></script>
+<section class="tiles ">
+  <div class="tile is-ancestor is-flex-wrap-wrap color-tiles">
+    
+    
+    <div class="tile is-parent p-1 is-4">
+      <div class="tile is-child box content color-1">
+        <p class="title is-5 pb-3">Researchers...</p>
+        <p class="subtitle is-6">
+          
+            in DH at the graduate and faculty level create innovative scholarship and new forms of scholarship. To see some of the many people who have been working in this area, look through some of our <a href="#TO-DO">seed grants</a> and <a href="#TO-DO">other projects</a>.
+            &nbsp;&nbsp;
+          
+          
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="tile is-parent p-1 is-4">
+      <div class="tile is-child box content color-1">
+        <p class="title is-5 pb-3">Teaching...</p>
+        <p class="subtitle is-6">
+          
+            in DH happens through the <a href="#TO-DO">affiliated faculty in the Program in Digital Humanities and Social Sciences</a> and the <a href="#TO-DO">summer internship program</a>.
+            &nbsp;&nbsp;
+          
+          
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="tile is-parent p-1 is-4">
+      <div class="tile is-child box content color-1">
+        <p class="title is-5 pb-3">Expert Consultations..</p>
+        <p class="subtitle is-6">
+          
+            are contributed from a variety of units across the University.
+            &nbsp;&nbsp;
+          
+          
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="tile is-parent p-1 is-4">
+      <div class="tile is-child box content color-1">
+        <p class="title is-5 pb-3">Administrative Support...</p>
+        <p class="subtitle is-6">
+          
+            is volunteered by people in the above categories, and through the NYU Center for the Humanities.
+            &nbsp;&nbsp;
+          
+          
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="tile is-parent p-1 is-4">
+      <div class="tile is-child box content color-1">
+        <p class="title is-5 pb-3">Planning + Initiatives...</p>
+        <p class="subtitle is-6">
+          
+            happen through the <a href="/people/executive-committee">DH Initiative Technology Committee</a> run through, and through the <a href="#TO-DO">Digital Humanities Faculty Steering Committee</a>.
+            &nbsp;&nbsp;
+          
+          
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</section>
 
 
-</body>
+      </div>
+    </section>
+    
+      
 
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>
