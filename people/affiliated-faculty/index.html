@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" class="has-navbar-fixed-top">
+<!--class="has-navbar-fixed-top"-->
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Affiliated Faculty | nyu/dh</title>
+<title>Affiliated Faculty | NYU DH</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Affiliated Faculty" />
 <meta property="og:locale" content="en" />
@@ -21,7 +22,7 @@
 <meta property="og:description" content="Here you’ll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie." />
 <link rel="canonical" href="/people/affiliated-faculty/" />
 <meta property="og:url" content="/people/affiliated-faculty/" />
-<meta property="og:site_name" content="nyu/dh" />
+<meta property="og:site_name" content="NYU DH" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Affiliated Faculty" />
 <script type="application/ld+json">
@@ -30,103 +31,116 @@
 <!-- head scripts --></head>
 
   <body>
-    <nav class="navbar is-spaced is-info  is-fixed-top" x-data="{ openNav: false }">
+    <nav class="navbar is-black">
+  <div class="container" style="display:flex;justify-content:space-between;padding-top:.5rem;flex-wrap:wrap;">
+    <a class="logo" href="/">
+      <h1 class="is-size-6" style="white-space: nowrap;">
+        <img src="/assets/images/torch.png" alt="Logo" width="60" style="vertical-align:middle;">
+        <span style="color:white;vertical-align:middle;">DH</span>
+      </h1>
+    </a>
+    <div class="unit-menu" style="display:flex;flex-wrap:wrap;">
+      
+        
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://cas.nyu.edu/" style="font-size:1rem;color:white" class="unit-item is-size-7">ARTS & SCIENCE</a>
+        
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://library.nyu.edu/" style="font-size:1rem;color:white" class="unit-item is-size-7">LIBRARIES</a>
+        
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://www.nyu.edu/life/information-technology.html" style="font-size:1rem;color:white" class="unit-item is-size-7">INFORMATION TECHNOLOGY</a>
+        
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://nyuhumanities.org/" style="font-size:1rem;color:white" class="unit-item is-size-7">Center for the Humanities</a>
+        
+      
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar is-spaced is-info" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a href="/" class="navbar-item is-size-4">
-        nyu<span class="is-secondary">/</span>dh
-      </a>
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <span class="navbar-burger" style="color:white;" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
     </div>
-    <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-
-      <div class="navbar-end">
+    <div class="navbar-menu">
+      <div class="navbar-start">
         
-        
-        
-        <a href="/about-us" class="navbar-item is-size-6 ">About Us</a>
-        
-        
-        
-        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
-          <a href="" class="navbar-link ">Funding</a>
-          <div class="navbar-dropdown">
+          
             
-            <a href="/funding/seed-grants" class="navbar-item ">Faculty Seed Grant Program</a>
+            <a href="/" class="navbar-item is-size-5 ">Home</a>
             
-            <a href="/funding/grad-student-fellowships" class="navbar-item ">Graduate Fellowship Program</a>
+          
             
-          </div>
-        </div>
-        
-        
-        
-        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
-          <a href="" class="navbar-link ">Projects</a>
-          <div class="navbar-dropdown">
+            <a href="/get-involved" class="navbar-item is-size-5 ">Get Involved</a>
             
-            <a href="/projects/all" class="navbar-item ">All Projects</a>
+          
             
-            <a href="/projects/seed-grants" class="navbar-item ">Seed Grant Recipents</a>
+            <div class="navbar-item is-size-5 has-dropdown is-hoverable ">
+              <a href="" class="navbar-link ">Curriculum</a>
+              <div class="navbar-dropdown">
+                
+                <a href="" class="navbar-item ">Cerificate</a>
+                
+                <a href="" class="navbar-item ">Courses</a>
+                
+              </div>
+            </div>
             
-            <a href="/projects/grad-fellows" class="navbar-item ">Graduate Fellowships</a>
+          
             
-          </div>
-        </div>
-        
-        
-        
-        <a href="/certificate" class="navbar-item is-size-6 ">Certificate Program</a>
-        
-        
-        
-        <div class="navbar-item is-size-6 has-dropdown is-hoverable ">
-          <a href="" class="navbar-link ">Resources</a>
-          <div class="navbar-dropdown">
+            <div class="navbar-item is-size-5 has-dropdown is-hoverable ">
+              <a href="" class="navbar-link ">Grants & Fellowships</a>
+              <div class="navbar-dropdown">
+                
+                <a href="" class="navbar-item ">Faculty Seed Grants</a>
+                
+                <a href="" class="navbar-item ">Graduate Fellowships</a>
+                
+              </div>
+            </div>
             
-            <a href="/resources/consultations" class="navbar-item ">Staff Consultations</a>
+          
             
-            <a href="" class="navbar-item ">High Performance Computing</a>
+            <a href="/people" class="navbar-item is-size-5 ">People</a>
             
-            <a href="" class="navbar-item ">Web Hosting</a>
+          
             
-            <a href="/resources/communication-and-events" class="navbar-item ">Communication + Events</a>
+            <a href="/projects" class="navbar-item is-size-5 ">Projects</a>
             
-          </div>
-        </div>
-        
-        
+          
         
       </div>
-
     </div>
   </div>
 </nav>
 
     
-      <section class="hero is-primary border-gradient">
-  <div class="hero-body">
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-      <div class="container">
-        <ul>
-          <li><a href="/">Home </a></li>
-          
-          <li><a href="/about-us#people">People</a></li>
-          
-          <li></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <p class="title">Affiliated Faculty</p>
       
+  <section class="hero is-primary border-gradient">
+    <div class="hero-body">
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+        <div class="container">
+          <ul>
+            
+            <li><a href="/about-us#people">People</a></li>
+            
+            <li></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <p class="title">Affiliated Faculty</p>
+        
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
 
     
     <section class="section">
@@ -201,19 +215,6 @@
     </section>
     
       
-<footer class="footer">
-    <div class="container">
-
-        <div class="columns is-multiline">
-            
-        </div>
-
-        <div class="content is-small has-text-centered">
-
-        </div>
-    </div>
-</footer>
-
 
     
     <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
